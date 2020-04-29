@@ -17,10 +17,6 @@ body {
     background-color: #efefef;
 }
 
-hr {
-    border-bottom: 1px solid #dadada;
-}
-
 .container {
     min-height: 100vh;
     padding: 40px;
@@ -59,7 +55,6 @@ hr {
 }
 
 .gradient {
-    background-color: blue;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -152,7 +147,7 @@ hr {
 .shoe {
     position: absolute;
     width: 140%;
-    opacity: 0;
+    display: none;
     bottom: 0;
     right: 0;
     cursor: pointer;
@@ -163,7 +158,7 @@ hr {
 }
 
 .shoe.show{
-    opacity: 1;
+    display: block;
     z-index: 1;
 }
 
@@ -356,19 +351,17 @@ hr {
 Responsive
 --------------------*/
 
-@media (min-width: 1070px) {
+/* Large screen */
+
+@media (min-width: 1199px) {
     .shoe.show:hover {
         transform: rotate(-20deg);
     }
 }
 
-@media (max-width: 1070px) {
-    .shoe{
-        width: 135%;
-    }
-}
+/* Medium screen & Tablet */
 
-@media (max-width: 1000px) {
+@media (max-width: 1199px) {
     .card {
         flex-direction: column;
         width: 100%;
@@ -391,10 +384,11 @@ Responsive
         top: 20%;
         left: 5%;
     }
-
 }
 
-@media (max-width: 600px) {
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 767px) {
     .share-button {
         width: 40px;
         height: 40px;
@@ -410,7 +404,13 @@ Responsive
     }
 }
 
-@media (max-width: 490px) {
+/* Small Mobile :320px. */
+
+@media only screen and (max-width: 479px) {
+    .container {
+        padding: 30px;
+    }
+
     .logo {
         width: 60px;
     }
@@ -469,14 +469,5 @@ Responsive
     .price i {
         font-size: .9rem;
     }
-}
 
-@media (max-width: 400px){
-    .buy i {
-        display: none;
-    }
-
-    .container {
-        padding: 20px;
-    }
 }
