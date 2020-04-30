@@ -187,7 +187,6 @@ Product Section
     display: none;
     bottom: 0;
     right: 0;
-    cursor: pointer;
     transition: .5s;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -411,7 +410,7 @@ Responsive
     .shoe {
         width: 100%;
         transform: rotate(-5deg) translateY(-50%);
-        top: 55%;
+        top: 5%;
         right: 2%;
     }
 
