@@ -37,6 +37,7 @@ function changeShoeSize() {
 // Dynamically change the shoe image color with all the regarding elemets
 
 function changeShoeColor() {
+    if(!animationEnd) return;
     let primary = this.getAttribute('primary');
     let color = this.getAttribute('color');
     let shoe = document.querySelector(`.shoe[color="${color}"]`);
@@ -55,9 +56,9 @@ function changeShoeColor() {
 
     // Dynamically change the shoe image which related to the active color
     shoes.forEach(function removeClass(shoe) {
-        shoe.classList.remove('show');
+        shoe.classList.remove('show', 'animated');
     });
-    shoe.classList.add('show');
+    shoe.classList.add('show', 'animated');
 
     // Dynamically change the shoe backgroud gradient which related to the active color
     gradients.forEach(function removeClass(gradient) {
@@ -68,6 +69,8 @@ function changeShoeColor() {
 
     prevColor = color;
     animationEnd = false;
+
+    // Check whether the shoe backgroud gradient animation end or not
 
     gradient.addEventListener('animationend', () => {
         animationEnd = true;

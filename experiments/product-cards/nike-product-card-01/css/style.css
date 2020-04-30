@@ -1,12 +1,40 @@
+@font-face {
+    font-family: "Futura Std";
+    font-style: italic;
+    font-weight: 800;
+    src: url(../fonts/futura-std/FuturaStd-CondExtraBoldObl.eot);
+    src: url(../fonts/futura-std/FuturaStd-CondExtraBoldObl.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/futura-std/FuturaStd-CondExtraBoldObl.woff2) format('woff2'),
+    url(../fonts/futura-std/FuturaStd-CondExtraBoldObl.woff) format('woff'),
+    url(../fonts/futura-std/FuturaStd-CondExtraBoldObl.ttf) format('truetype'),
+    url(../fonts/futura-std/FuturaStd-CondExtraBoldObl.svg#FuturaStd-CondExtraBoldObl) format('svg');
+}
+
+@font-face {
+    font-family: 'TradeGothic';
+    font-style: normal;
+    font-weight: bold;
+    src: url(../fonts/trade-gothic-bold/TradeGothic-Bold.eot);
+    src: url(../fonts/trade-gothic-bold/TradeGothic-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/trade-gothic-bold/TradeGothic-Bold.woff2) format('woff2'),
+    url(../fonts/trade-gothic-bold/TradeGothic-Bold.woff) format('woff'),
+    url(../fonts/trade-gothic-bold/TradeGothic-Bold.ttf) format('truetype'),
+    url(../fonts/trade-gothic-bold/TradeGothic-Bold.svg#TradeGothic-Bold) format('svg');
+}
+
 :root {
     --primary: #2175f5;
 }
+
+/*--------------------
+Global Classes
+--------------------*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'TradeGothic', sans-serif;
 }
 
 a {
@@ -16,6 +44,10 @@ a {
 body {
     background-color: #efefef;
 }
+
+/*--------------------
+Helper Classes
+--------------------*/
 
 .container {
     min-height: 100vh;
@@ -32,6 +64,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/*--------------------
+Product Section
+--------------------*/
 
 .shoe-background {
     width: 50%;
@@ -137,6 +173,7 @@ body {
     position: absolute;
     top: 85px;
     left: 15px;
+    font-family: "Futura Std";
     font-size: 11rem;
     text-transform: uppercase;
     line-height: 0.9;
@@ -162,6 +199,10 @@ body {
     z-index: 1;
 }
 
+/*--------------------
+Info Section
+--------------------*/
+
 .info {
     width: 50%;
     background-color: #fff;
@@ -183,7 +224,8 @@ body {
 
 .shoe-name div .big {
     margin-right: 10px;
-    font-size: 2rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
     color: #333;
     line-height: 1;
 }
@@ -201,10 +243,10 @@ body {
 }
 
 .shoe-name .small {
-    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
     color: #444;
     margin-top: 4px;
-    text-transform: capitalize;
 }
 
 .shoe-name, .description, .color-container, .size-container {
@@ -212,19 +254,21 @@ body {
 }
 
 .description, .color-container, .size-container {
-    padding: 10px 0;
+    padding: 12px 0;
 }
 
 .title {
     color: #3a3a3a;
-    font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
+    padding-bottom: 5px;
 }
 
 .text {
     color: #555;
-    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .colors {
@@ -293,7 +337,6 @@ body {
     text-align: center;
     line-height: 40px;
     font-size: 1.1rem;
-    font-weight: 500;
     cursor: pointer;
     transition: .3s;
 }
@@ -317,7 +360,6 @@ body {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 500;
     font-size: 1.1rem;
     transition: .5s;
 }
@@ -338,7 +380,6 @@ body {
 
 .price h1{
     font-size: 2.1rem;
-    font-weight: 600;
     line-height: 1;
 }
 
@@ -352,12 +393,6 @@ Responsive
 --------------------*/
 
 /* Large screen */
-
-@media (min-width: 1199px) {
-    .shoe.show:hover {
-        transform: rotate(-20deg);
-    }
-}
 
 /* Medium screen & Tablet */
 
@@ -429,11 +464,11 @@ Responsive
     }
 
     .shoe-name div .big{
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
 
     .shoe-name .small {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .new {
@@ -442,11 +477,11 @@ Responsive
     }
 
     .title {
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
 
     .text {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .size {
@@ -459,11 +494,11 @@ Responsive
 
     .buy-button {
         padding: .5rem .8rem;
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .price h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .price i {
