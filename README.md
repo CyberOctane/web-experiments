@@ -1,15 +1,27 @@
-# HTML Experiments
-Simply a place for me to put my interesting experiments and demos I've made with HTML, CSS &amp; JavaScript.
+![Web Experiments](https://lazpremarathna.github.io/web-experiments/img/github-header-strip.png)
+
+> Simply a place for me to put my interesting experiments and demos I've made with HTML, CSS &amp; JavaScript.
+
+[![](https://img.shields.io/badge/%E2%9D%A4-Instagram%20Channel-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://www.instagram.com/webexperiments/)
 
 <p align="center">
-	<img src="https://lazpremarathna.github.io/html-experiments/readme-thumbnail.png" width="100%">
+	<img src="https://lazpremarathna.github.io/web-experiments/img/readme-thumbnail.png" width="100%">
 </p>
 
 ## Contents
 - [Product Cards](#productcards)
 
 ## Product Cards
-- [Nike Product Card 01](https://lazpremarathna.github.io/html-experiments/experiments/product-cards/nike-product-card-01/nike-product-card-01.html)
+- [Nike Product Card 01](https://lazpremarathna.github.io/web-experiments/experiments/product-cards/nike-product-card-01/nike-product-card-01.html)
+
+## 🙌 Contribution
+
+> Have a look at [contribution docs](./CONTRIBUTING.md) for how to update any of the roadmaps
+
+- Open pull request with improvements
+- Discuss ideas in issues
+- Spread the word
+- Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/kamranahmedse.svg?style=social&label=Follow%20%40kamranahmedse)](https://twitter.com/kamranahmedse)
 
 ## License
-All experiments are available under the MIT license.
+All experiments are available under the [MIT license](./LICENSE).
