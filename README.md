@@ -21,7 +21,7 @@
 - Open pull request with improvements
 - Discuss ideas in issues
 - Spread the word
-- Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/lazpremarathna.svg?style=social&label=Follow%20%40lazpremarathna)](https://twitter.com/lazpremarathna)
+- Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/LazPremarathana.svg?style=social&label=Follow%20%40LazPremarathana)](https://twitter.com/LazPremarathana)
 
 ## License
 All experiments are available under the [MIT license](./LICENSE).
