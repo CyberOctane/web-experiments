@@ -16,12 +16,12 @@
 
 ## 🙌 Contribution
 
-> Have a look at [contribution docs](./CONTRIBUTING.md) for how to update any of the roadmaps
+> Have a look at [contribution docs](./CONTRIBUTING.md) for how to update any of the experiments
 
 - Open pull request with improvements
 - Discuss ideas in issues
 - Spread the word
-- Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/kamranahmedse.svg?style=social&label=Follow%20%40kamranahmedse)](https://twitter.com/kamranahmedse)
+- Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/lazpremarathna.svg?style=social&label=Follow%20%40lazpremarathna)](https://twitter.com/lazpremarathna)
 
 ## License
 All experiments are available under the [MIT license](./LICENSE).
