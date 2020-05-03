@@ -12,7 +12,7 @@
 - [Product Cards](#productcards)
 
 ## Product Cards
-- [Nike Product Card 01](https://lazpremarathna.github.io/web-experiments/experiments/product-cards/nike-product-card-01/nike-product-card-01.html)
+- [Nike Product Card 01](https://lazpremarathna.github.io/web-experiments/src/product-cards/nike-product-card-01/nike-product-card-01.html)
 
 ## 🙌 Contribution
 
