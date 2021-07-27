@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0b0b0b;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.hover-effect::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    margin-top: 5px;
+    background: aliceblue;
+    transition: width 0.3s;
+}
+
+.hover-effect:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+}
+
+@media screen and (max-width: 700px) {
+    li {
+        display: block;
+    }
+
+    li a {
+
+        padding: 1rem 0;
+    }
+}
