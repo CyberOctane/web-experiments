@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/%E2%9D%A4-Instagram%20Channel-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://www.instagram.com/webexperiments/)
 
 <p align="center">
-	<img src="https://lazpremarathna.github.io/web-experiments/img/readme-thumbnail.png" width="100%">
+	<img src="https://cyberoctane.github.io/web-experiments/img/readme-thumbnail.png" width="100%">
 </p>
 
 ## Contents
